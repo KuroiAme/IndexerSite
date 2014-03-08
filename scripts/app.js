@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('KuroiAme.Indexersite', ['ngAnimate', 'ngRoute', 'mgcrea.ngStrap'])
+angular.module('KuroiAme.Indexersite', ['ngAnimate', 'ngRoute'])
 
   .constant('version', 'v0.1.0')
 

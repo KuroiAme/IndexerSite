@@ -54,7 +54,7 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+  padding: 10px;
 }
 
 
@@ -99,6 +99,7 @@ body {
   }
   .masthead-nav {
     float: right;
+      padding-top: 60px;
   }
 }
 
@@ -159,3 +160,48 @@ body {
     width: 700px;
   }
 }
+
+#tavle
+{
+    position: absolute;
+    left: -2px;
+    width: 298px;
+    top: 24px;
+    height: 120px;
+    background: rgb(36, 109, 0);
+    border: 3px solid rgb(0, 0, 0);
+    -webkit-box-shadow: -2.25px -0.75px 11.5px 0 rgb(0, 0, 0) inset, 0px -0.75px 11.5px 0 rgb(0, 0, 0);
+    -moz-box-shadow: -2.25px -0.75px 11.5px 0 rgb(0, 0, 0) inset, 0px -0.75px 11.5px 0 rgb(0, 0, 0);
+    box-shadow: -2.25px -0.75px 11.5px 0 rgb(0, 0, 0) inset, 0px -0.75px 11.5px 0 rgb(0, 0, 0);
+}
+#caption
+{
+    /*position: absolute;*/
+    /*left: 60px;*/
+    /*width: 181px;*/
+    /*top: 29px;*/
+    /*height: 65px;*/
+    /*background: none;*/
+    /*border: none;*/
+    text-shadow: -1px -2px 11.5px rgb(0, 0, 0);
+    font-size: 48px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+#subtitle
+{
+    /*position: absolute;*/
+    /*left: 0px;*/
+    /*width: 300px;*/
+    /*top: 94px;*/
+    /*height: 54px;*/
+    /*background: none;*/
+    /*border: none;*/
+    text-shadow: -1px -2px 11.5px rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+

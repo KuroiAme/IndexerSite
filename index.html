@@ -44,10 +44,13 @@
 
 <body ontouchstart ng-controller="MainCtrl">
 
+
+
   <div class="site-wrapper">
     <div class="site-wrapper-inner">
       <div class="cover-container">
         <div class="masthead clearfix">
+            <div class="inner" ng-include="'views/partials/logo.html'"></div>
           <div class="inner" ng-include="'views/partials/header.html'"></div>
         </div>
         <div class="inner cover">
@@ -62,6 +65,10 @@
 
   <!-- build:js scripts/components.min.js -->
   <!-- bower:js -->
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="bower_components/angular-route/angular-route.min.js"></script>
+  <script src="app/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="app/bower_components/angular-route/angular-route.min.js"></script>
   <!-- endbower -->
   
   <!-- endbuild -->
@@ -69,6 +76,10 @@
   <!-- build:js scripts/app.min.js -->
   <script src="scripts/app.js"></script>
   <script src="scripts/controllers/main.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <!-- endbuild -->
 
 </body>
