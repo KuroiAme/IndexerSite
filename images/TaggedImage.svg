@@ -3,7 +3,7 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="200"  xml:space="preserve">
     <defs>
         <pattern id="green-rectangle" x="-103" y="23" width="119" height="150" patternUnits="userSpaceOnUse" viewBox="0 0 119 150">
-            <image xlink:href="http://cpanel41.proisp.no/~indexlun/images/images/green.png" x="0" y="0" width="119" height="150" />
+            <image xlink:href="http://cpanel41.proisp.no/~indexlun/images/green.png" x="0" y="0" width="119" height="150" />
         </pattern>
         <filter id="shadow-outer" filterUnits="userSpaceOnUse">
             <feGaussianBlur stdDeviation="2.5" />
