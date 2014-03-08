@@ -57,6 +57,12 @@ body {
   padding: 10px;
 }
 
+/*.dctapps*/
+/*{*/
+    /*vertical-position: ;*/
+    /*padding: 20px;*/
+/*}*/
+
 
 /*
  * Header
@@ -109,7 +115,7 @@ body {
  */
 
 .cover {
-  padding: 0 20px;
+  margin: 0 auto 400;
 }
 .cover .btn-lg {
   padding: 10px 20px;
@@ -124,8 +130,12 @@ body {
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
+  margin-top: -400;
 }
 
+.dctapps{
+    margin-top: 200px !important;
+}
 
 /*
  * Affix and center

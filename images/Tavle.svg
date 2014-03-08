@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="125"  xml:space="preserve">
+    <defs>
+        <filter id="shadow-outer" filterUnits="userSpaceOnUse">
+            <feGaussianBlur stdDeviation="5.75" />
+            <feOffset dx="-1.1" dy="-2.1" result="blur" />
+            <feFlood flood-color="rgb(0, 0, 0)" flood-opacity="1" />
+            <feComposite in2="blur" operator="in" result="colorShadow" />
+            <feComposite in="SourceGraphic" in2="colorShadow" operator="over" />
+        </filter>
+        <filter id="shadow-inner" filterUnits="userSpaceOnUse">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="5.75" result="blur"/>
+            <feOffset dx="-1.1" dy="-2.1"/>
+            <feComposite in2="SourceAlpha" operator="arithmetic" k2="-1.15" k3="1.15" result="shadowDiff"/>
+            <feFlood flood-color="rgb(0, 0, 0)" flood-opacity="1"/>
+            <feComposite in2="shadowDiff" operator="in"/>
+            <feComposite in2="SourceGraphic" operator="over"/>
+        </filter>
+    </defs>
+    <g id="group">
+        <g filter="url(#shadow-outer)">
+            <rect id="tavle" stroke="none" fill="rgb(62, 125, 31)" fill-opacity="0.87" filter="url(#shadow-inner)" x="0.5" y="2" width="300.5" height="123" />
+        </g>
+        <rect stroke="rgb(51, 17, 0)" stroke-width="2.5" fill="none" filter="url(#shadow-outer)" x="0.5" y="2" width="300.5" height="123" />
+        <rect id="caption" stroke="none" fill="none" x="60" y="2" width="181" height="65" />
+        <text fill="rgb(255, 255, 255)" filter="url(#shadow-outer)" font-family="Helvetica, sans-serif" font-size="48" x="70.45" y="2">
+            <tspan x="70.45" y="49">Indexer</tspan>
+        </text>
+        <rect id="subtitle" stroke="none" fill="none" x="1" y="71" width="300" height="54" />
+        <text fill="rgb(255, 255, 255)" filter="url(#shadow-outer)" font-family="Helvetica, sans-serif" font-size="18" x="16.1" y="71">
+            <tspan x="16.1" y="89">Document your stuff for insurance</tspan>
+        </text>
+    </g>
+</svg>
