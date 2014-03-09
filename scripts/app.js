@@ -1,10 +1,10 @@
 'use strict';
 
-angular.module('KuroiAme.Indexersite', ['ngAnimate', 'ngRoute'])
+angular.module('KuroiAme.Indexersite', ['ngAnimate', 'ngRoute','angulartics', 'angulartics.google.analytics'])
 
   .constant('version', 'v0.1.0')
 
-  .config(function($locationProvider, $routeProvider) {
+  .config(function($locationProvider, $routeProvider,$analyticsProvider) {
 
     $locationProvider.html5Mode(false);
 
@@ -21,6 +21,9 @@ angular.module('KuroiAme.Indexersite', ['ngAnimate', 'ngRoute'])
       .otherwise({
         redirectTo: '/'
       });
+
+       $analyticsProvider.virtualPageviews(true);
+
 
   });
 

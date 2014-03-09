@@ -26,10 +26,8 @@
   <meta property="og:description" content="Document your stuff for insurance">
   <meta property="og:image" content="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png">
 
-  <!-- Author of this application -->
-  <link rel="author" href="https://github.com/KuroiAme"> 
-  <link rel="icon" href="http://angularjs.org/favicon.ico" type="image/x-icon">
-  <link rel="shortcut icon" href="http://angularjs.org/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="indexer.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="indexer.ico" type="image/x-icon">
 
   <!-- build:css styles/components.min.css -->
   <!-- bower:css -->
@@ -41,6 +39,8 @@
   <!-- endbuild -->
 
 </head>
+
+
 
 <body ontouchstart ng-controller="MainCtrl">
 
@@ -61,6 +61,10 @@
   <script src="bower_components/angular-route/angular-route.min.js"></script>
   <script src="app/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="app/bower_components/angular-route/angular-route.min.js"></script>
+  <script src="bower_components/angulartics/dist/angulartics.min.js"></script>
+  <script src="bower_components/angulartics/dist/angulartics-ga.min.js"></script>
+  <script src="bower_components/angulartics/dist/angulartics-scroll.min.js"></script>
+  <script src="bower_components/angulartics/dist/angulartics-ga-cordova.min.js"></script>
   <!-- endbower -->
   
   <!-- endbuild -->
@@ -73,6 +77,16 @@
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <!-- endbuild -->
+
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-47719330-2', 'indexer.no');
+
+  </script>
 
 </body>
 
