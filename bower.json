@@ -1,0 +1,35 @@
+{
+  "name": "Y",
+  "version": "1.0.0",
+  "homepage": "www.indexer.no",
+  "authors": [
+    "y"
+  ],
+  "description": "Marketing site for the Indexer app",
+  "main": "index.html",
+  "keywords": [
+    "apps",
+    "insurance",
+    "moving"
+  ],
+  "license": "y",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "~1.2.10",
+    "angular-cookies": "~1.2.14",
+    "angular-route": "~1.2.10",
+    "angulartics": "~0.14.15",
+    "bootstrap-sass": "twbs/bootstrap-sass#~3.1.1",
+    "bootstrap": "~3.1.0"
+  },
+  "resolutions": {
+    "angular": "1.2.15-build.2399+sha.ca4ddfa"
+  }
+}

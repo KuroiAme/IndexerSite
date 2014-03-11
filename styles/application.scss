@@ -34,6 +34,19 @@ a{
   display: inline-block;
 }
 
+.indexer-language-navbar{
+  text-align: center;
+}
+
+.indexer-language-navbar li{
+  display: inline-block;
+}
+
+.indexer-language-navbar li button{
+  background-color: transparent;
+  border: none;
+}
+
 .indexer-heading{
   margin-top: 10px;
   text-align: center;

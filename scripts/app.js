@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('KuroiAme.Indexersite', ['ngAnimate', 'ngRoute','angulartics', 'angulartics.google.analytics'])
+var app = angular.module('KuroiAme.Indexersite', ['ngAnimate', 'ngRoute','angulartics', 'angulartics.google.analytics','ngResource', 'ngCookies'])
 
   .constant('version', 'v0.1.0')
 
@@ -26,4 +26,16 @@ angular.module('KuroiAme.Indexersite', ['ngAnimate', 'ngRoute','angulartics', 'a
 
 
   });
+
+app.service('translationService', function($resource) {
+    this.getTranslation = function($scope, language) {
+        if(language == undefined){
+            language = "en";
+        }
+        var languageFilePath = 'translations/translation_' + language + '.json';
+        $resource(languageFilePath).get(function (data) {
+            $scope.translation = data;
+        });
+    };
+});
 

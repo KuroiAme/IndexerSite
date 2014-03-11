@@ -42,11 +42,12 @@
 
 
 
-<body ontouchstart ng-controller="MainCtrl">
+<body ng-controller="MainCtrl">
 
   <div class=".col-xs-12 .col-sm-6 .col-md-8">
             <div  ng-include="'views/partials/logo.html'"></div>
-          <div  ng-include="'views/partials/header.html'"></div>
+          <div ng-include="'views/partials/LanguageSelector.html'"></div>
+      <div  ng-include="'views/partials/header.html'"></div>
 
         <div class="indexer">
           <div  ng-view></div>
@@ -65,6 +66,8 @@
   <script src="bower_components/angulartics/dist/angulartics-ga.min.js"></script>
   <script src="bower_components/angulartics/dist/angulartics-scroll.min.js"></script>
   <script src="bower_components/angulartics/dist/angulartics-ga-cordova.min.js"></script>
+  <script src="bower_components/angular-cookies/angular-cookies.min.js"></script>
+  <script src="bower_components/angular-resource/angular-resource.min.js"></script>
   <!-- endbower -->
   
   <!-- endbuild -->
@@ -72,6 +75,7 @@
   <!-- build:js scripts/app.min.js -->
   <script src="scripts/app.js"></script>
   <script src="scripts/controllers/main.js"></script>
+  <!--<script src="scripts/services/services.js"></script>-->
   <script src="bower_components/angular-animate/angular-animate.min.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -87,6 +91,8 @@
       ga('create', 'UA-47719330-2', 'indexer.no');
 
   </script>
+
+
 
 </body>
 
