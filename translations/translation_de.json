@@ -1,9 +1,14 @@
 {
-    "HOME_HEADING" : "Katalogizieren sie ihren dingen mit minimaler Einsatz und Zeit.",
+    "HOME_HEADING" : "Katalogizieren sie ihre dingen mit minimaler Einsatz und Zeit.",
     "HEADER_HOME" : "Hauptseite",
     "HEADER_FEATURES" : "Funktionen",
     "HEADER_CONTACT" : "Kontakt",
     "FEATURES_INGRESS" : "Indexer ist ein App wo man mit kleiner Einsatz sachen dokumentieren kann.",
     "CONTACT_BODY" : "Ob sie etwas in den App vermissen dann können sie mir einen email schicken mit einem",
-    "CONTACT_SUGGESTION" : "Vorslag"
+    "CONTACT_SUGGESTION" : "Vorslag",
+    "HOME_P1" : "Indexer lasst dich Einfach deine Zeug in den Handy rein. Nimmt Photographien mit den Kamera und die Bildern in eine Karussell anschauen.",
+    "HOME_P2" : "Zoom ein gewünschter Objekt ein und mit den Finger zweimal schnell drucken. Schlüsselwortmarkieren Objekten wie ein Gesicht auf Facebook ",
+    "HOME_P3" : "Das Schlüsselwort kannst du anschauen bei eine lange druck auf den Behälter mit der Schlüsselwort.",
+    "HOME_P4" : "Von dort lasst sich das Schlüsselwort zu entweder einen kleine Objekten, großen Objekten oder ein Behälter machen. Schicke ein Email mit eine liste über dein Zeug zu Z.B. dein Versicherungsagentur.",
+    "HOME_TRY" : "Versuchen Sie den App heute UMSONST."
 }

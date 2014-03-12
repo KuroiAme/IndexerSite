@@ -5,5 +5,10 @@
     "HEADER_CONTACT" : "Ta kontakt",
     "FEATURES_INGRESS" : "Indexer er en app for å nøkkelordmarkere og dokumentere tingene dine ved hjelp av bilder med minimal innsats.",
     "CONTACT_BODY" : "Hvis det er noe du savner i appen eller det er noe som du synes burde være andereles, send meg en epost med et",
-    "CONTACT_SUGGESTION" : "forslag"
+    "CONTACT_SUGGESTION" : "forslag",
+    "HOME_P1" : "Indexer lar deg med letthet putte tingene dine inn i din mobiltelefon eller brett. Ta fotografier med kamera og se de i en karusell.",
+    "HOME_P2" : " Zoom inn på hvilket objekt du vil, tapp på skjermen to ganger. Da kan du markere tingen din akkurat som ansikter på Facebook.",
+    "HOME_P3" : "For å se på hvert nøkkelord hold nede fingeren på taggen. Hvis du vil kan du lagre det taggede området som et lite objekt, stort eller beholder.",
+    "HOME_P4" : " Send en epost med en liste av hva du har til hvem som helst du vil. For eksempel til forsikrings-byrået ditt.",
+    "HOME_TRY" : "Prøv den i dag GRATIS!"
 }

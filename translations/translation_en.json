@@ -5,5 +5,10 @@
     "HEADER_CONTACT" : "Contact",
     "FEATURES_INGRESS" : "Indexer is an app for little effort tagging and documenting your stuff using images.",
     "CONTACT_BODY" : "If you have something you miss in the app or feel should be different, send me an email with a",
-    "CONTACT_SUGGESTION" : "suggestion"
+    "CONTACT_SUGGESTION" : "suggestion",
+    "HOME_P1" : "Indexer lets you put your stuff easily into your device. Take photographs with your camera and view them in a carousel.",
+    "HOME_P2" : "Zoom into objects you like, then double-tap. Tag your stuff like faces on Facebook.",
+    "HOME_P3" : "To look at each tag/keyword hold your finger on the tag. If you want, you can make your tag into a small or big item, or even a container.",
+    "HOME_P4" : "Send an email with a list of your stuff to whoever you like.",
+    "HOME_TRY" : "Try the App for FREE today!"
 }
