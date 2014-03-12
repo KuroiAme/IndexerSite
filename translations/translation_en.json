@@ -2,5 +2,8 @@
     "HOME_HEADING" : "Catalogue your stuff using images with minimal time and effort.",
     "HEADER_HOME" : "Home",
     "HEADER_FEATURES" : "Features",
-    "HEADER_CONTACT" : "Contact"
+    "HEADER_CONTACT" : "Contact",
+    "FEATURES_INGRESS" : "Indexer is an app for little effort tagging and documenting your stuff using images.",
+    "CONTACT_BODY" : "If you have something you miss in the app or feel should be different, send me an email with a",
+    "CONTACT_SUGGESTION" : "suggestion"
 }

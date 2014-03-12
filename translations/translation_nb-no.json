@@ -2,5 +2,8 @@
     "HOME_HEADING" : "Katalogiser tingene dine med minimal innsats og tid.",
     "HEADER_HOME" : "Hovedside",
     "HEADER_FEATURES" : "Funksjoner",
-    "HEADER_CONTACT" : "Ta kontakt"
+    "HEADER_CONTACT" : "Ta kontakt",
+    "FEATURES_INGRESS" : "Indexer er en app for å nøkkelordmarkere og dokumentere tingene dine ved hjelp av bilder med minimal innsats.",
+    "CONTACT_BODY" : "Hvis det er noe du savner i appen eller det er noe som du synes burde være andereles, send meg en epost med et",
+    "CONTACT_SUGGESTION" : "forslag"
 }

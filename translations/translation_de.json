@@ -2,5 +2,8 @@
     "HOME_HEADING" : "Katalogizieren sie ihren dingen mit minimaler Einsatz und Zeit.",
     "HEADER_HOME" : "Hauptseite",
     "HEADER_FEATURES" : "Funktionen",
-    "HEADER_CONTACT" : "Kontakt"
+    "HEADER_CONTACT" : "Kontakt",
+    "FEATURES_INGRESS" : "Indexer ist ein App wo man mit kleiner Einsatz sachen dokumentieren kann.",
+    "CONTACT_BODY" : "Ob sie etwas in den App vermissen dann können sie mir einen email schicken mit einem",
+    "CONTACT_SUGGESTION" : "Vorslag"
 }
